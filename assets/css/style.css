@@ -1,0 +1,26 @@
+/* Rule */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Details section */
+.list-group span{
+    font-size: .9rem;
+}
+
+/* Train animation */
+#train {
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+
+#train {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+    from {left: -10%;}
+    to {left: 100%;}
+  }
+
+#train img{
+    width: 200px;
+} 

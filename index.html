@@ -1,0 +1,122 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+
+    <title>JS | My train ticket</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/img/Citycons_train_icon-icons.com_67910.png" type="image/png" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+
+  <body>
+
+    <!-- Site header -->
+    <header>
+
+        <!-- Header nav -->
+        <nav class="navbar navbar-light bg-light shadow">
+
+            <a class="navbar-brand" href="#">
+              <img src="./assets/img/Citycons_train_icon-icons.com_67910.png" width="50" height="50" class="d-inline-block" alt="frontal image of a modern train">
+              <span class="company_name align-middle font-weight-bold text-uppercase text-black-50">train company</span>
+            </a>
+
+            <button type="button" class="btn btn-info btn-sm ml-auto font-weight-bold">HELP</button>
+
+        </nav>
+        <!-- end Header nav -->
+
+    </header>
+    <!-- end Site header -->
+
+    <!-- Site main -->
+    <main>
+
+        <!-- Well done section -->
+        <div class="container welldone_section">
+
+            <div class="alert alert-success my-5" role="alert">
+
+                <h4 class="alert-heading">Well done!</h4>
+                <p>Dear user, your ticket has been processed successfully!</p>
+                <hr>
+                <p class="mb-0">Details are listed below. Thank you!</p>
+
+            </div>
+
+        </div>
+        <!-- end Well done section -->
+
+        <!-- Details section -->
+        <div class="details_section shadow">
+
+            <ul class="list-group">
+
+                <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
+                  <span class="text-black-50 font-weight-bold">The distance traveled will be</span>
+                  <span id="number_kilometers" class="badge badge-info badge-pill font-weight-bold"></span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
+                    <span class="text-black-50 font-weight-bold">Cost of the route</span>
+                    <span id="cost" class="badge badge-info badge-pill font-weight-bold">2</span>
+                </li>
+    
+                <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
+                  <span id="discount_text" class="text-black-50 font-weight-bold"></span>
+                  <span id="cost_discount" class="badge badge-info badge-pill font-weight-bold">2</span>
+                </li>
+    
+                <li class="list-group-item d-flex justify-content-between align-items-center bg-light">
+                  <span class="text-black-50 font-weight-bold">Ticket cost</span>
+                  <span id="cost_ticket" class="badge badge-info badge-pill font-weight-bold">1</span>
+                </li>
+    
+              </ul>
+
+        </div>
+        <!-- end Details section -->
+
+    </main>
+    <!-- end Site main -->
+
+    <!-- Site footer -->
+    <footer>
+
+        <!-- Train animation -->
+        <div id="train">
+            <img src="./assets/img/train.png" alt="train wagon passing from left to right">
+        </div>
+        <!-- end Train animation -->
+
+    </footer>
+    <!-- end Site footer -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- My JavaScript -->
+    <script src="./assets/js/main.js"></script>
+  
+  </body>
+ 
+</html>
