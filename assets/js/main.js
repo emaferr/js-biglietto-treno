@@ -58,7 +58,7 @@ if (userAge < 18){
 }else if (userAge > 64) {
     discountText = "Discount over 65 years";
 } else {
-    discountText = "";
+    discountText = "No discount";
 }
 
 document.getElementById("discount_text").innerHTML = discountText;
